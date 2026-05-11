@@ -16,8 +16,8 @@
     <div class="container">
         <center>
             <h1>5026241193</h1>
-            <p><a href="pertemuan5.html" target="_blank" class="btn btn-primary">Pertemuan 5</a></p>
-            <p><a href="tugaslinktree.html" target="_blank" class="btn btn-primary">Tugas LinkTree</a></p>
+            <p><a href="pertemuan5.blade.php" target="_blank" class="btn btn-primary">Pertemuan 5</a></p>
+            <p><a href="tugaslinktree.blade.php" target="_blank" class="btn btn-primary">Tugas LinkTree</a></p>
             <p><a href="" target="_blank" class="btn btn-primary">Tugas Makeover akun</a></p>
             <p><a href="" target="_blank" class="btn btn-primary">UTS</a></p>
             <p><a href="" target="_blank" class="btn btn-primary">Pertemuan 5</a></p>
