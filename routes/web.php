@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController ;
 use App\Http\Controllers\BlogController ;
 use App\Http\Controllers\PegawaiDBController ;
 use App\Http\Controllers\SiswaController ;
+use App\Http\Controllers\KeranjangController ;
 
 
 Route::get('/', function () {
@@ -70,3 +71,9 @@ Route::get('/siswa/{nrp}/edit', [SiswaController::class, 'edit'])->name('siswa.e
 Route::put('/siswa/{nrp}', [SiswaController::class, 'update'])->name('siswa.update');
 Route::delete('/siswa/{nrp}', [SiswaController::class, 'destroy'])->name('siswa.destroy');
 
+Route::get('/keranjang', [KeranjangController::class, 'index'])->name('Keranjang.index');
+Route::get('/keranjang/create', [KeranjangController::class, 'create'])->name('Keranjang.create');
+Route::post('/keranjang', [KeranjangController::class, 'store'])->name('Keranjang.store');
+Route::get('/keranjang/{id}/edit', [KeranjangController::class, 'edit'])->name('Keranjang.edit');
+Route::put('/keranjang/{id}', [KeranjangController::class, 'update'])->name('Keranjang.update');
+Route::delete('/keranjang/{nrp}', [KeranjangController::class, 'destroy'])->name('Keranjang.destroy');
